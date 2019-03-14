@@ -1,10 +1,13 @@
 /* Element Chalk Variables */
 
-// Special comment for theme configurator
+// 注释要求：
+// 类别名|属性名|值类型[color,px,number,percent,var,func,other]|描述|*ignore
+
+// css属性分类有：
 
 /* Transition
 -------------------------- */
-// 全局|过渡属性|ignore 
+// 全局|过渡属性||ignore 
 $--all-transition: all .3s cubic-bezier(.645,.045,.355,1) !default;
 // 全局|过渡属性|fade|ignore 
 $--fade-transition: opacity 300ms cubic-bezier(0.23, 1, 0.32, 1) !default;
@@ -219,7 +222,6 @@ $--checkbox-disabled-checked-input-border-color: $--border-color-base !default;
 $--checkbox-disabled-checked-icon-color: $--color-text-placeholder !default;
 
 // 多选框|颜色|选中时，label文字颜色 
-
 $--checkbox-checked-text-color: $--color-primary !default;
 // 多选框|边框|选中时，选中和不确定状态，边框颜色 
 $--checkbox-checked-input-border-color: $--color-primary !default;
