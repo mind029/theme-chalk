@@ -31,3 +31,9 @@ import 'element-theme-chalk/lib/select.css';
 
 // ...
 ```
+
+## 饿了么UI主题模板库。
+
+1. `resource.config.js`为静态资源路径
+2. `url.config.js` 为主题里面url使用到的路径
+3. `.npmrc` 为npm发布配置

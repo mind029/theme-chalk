@@ -13,13 +13,13 @@ gulp.task('compile', function() {
       cascade: false
     }))
     .pipe(cssmin())
-    .pipe(gulp.dest('./lib'));
+    .pipe(gulp.dest('./dist'));
 });
 
 gulp.task('copyfont', function() {
   return gulp.src('./src/fonts/**')
     .pipe(cssmin())
-    .pipe(gulp.dest('./lib/fonts'));
+    .pipe(gulp.dest('./dist/fonts'));
 });
 
 gulp.task('build', ['compile', 'copyfont']);
